@@ -9,7 +9,7 @@ topic_modeling_df.drop("Unnamed: 0", axis=1, inplace=True)
 
 def get_topic(sentence):
     topic_count = {"Computer Science": 0, "Social": 0, "Science": 0, "Math": 0, "Sports": 0, "Art": 0, "Music": 0,
-                   "Economy": 0, "Physics": 0}
+                   "Economy": 0, "Physics": 0, "Person": 0}
 
     topics = topic_count.keys()
 
